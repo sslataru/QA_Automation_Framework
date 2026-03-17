@@ -9,7 +9,7 @@ export class LoginPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.usernameInput = page.locator('[data-test="username"]');
+    this.usernameInput = page.locator('[data-test="wrong"]');
     this.passwordInput = page.locator('[data-test="password"]');
     this.loginButton = page.locator('[data-test="login-button"]');
     this.errorMessage = page.locator('[data-test="error"]');
