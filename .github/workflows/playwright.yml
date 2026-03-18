@@ -54,8 +54,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-results
-<<<<<<< HEAD
           path: test-results
-=======
-          path: test-results
->>>>>>> 5f0b8ce (Fix workflow and update login page)
